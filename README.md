@@ -1,2 +1,47 @@
+# 📝 Blog Management System
 
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Blog Management System</a>
+A feature-rich Blog Management System built with **Laravel 12**, **Vue 3**, **Inertia.js**, and **Pusher** for real-time interactivity.
+
+---
+
+## 📽️ Demo Video
+
+Watch the full walkthrough:  
+👉 [Click here to watch the demo](https://drive.google.com/file/d/1Dhec7SsfAZcyngQo_1AAmJ4XZF1Sqb_v/view?usp=sharing)  
+*(Replace with your actual video URL)*
+
+---
+
+## 🚀 Features
+
+### 🔐 User Authentication & Profile
+- User registration and login (supports JWT or Session-based auth).
+- Unique usernames per user.
+- Upload profile pictures (default image used if none).
+- Guests can view **only public posts** but cannot comment or post.
+
+### 📝 Post Management
+- Create, edit, and delete posts.
+- Add text content with optional images.
+- Posts sorted by latest first.
+- Post visibility options:
+  - **Public** – visible to everyone.
+  - **Private** – visible only to the post owner.
+
+### 🏷️ Tags & 🔍 Search System
+- Add tags to posts for categorization.
+- Search by:
+  - Title
+  - Content
+  - Tags
+  - Username
+
+### 💬 Real-Time Comment System
+- Comment on any public post.
+- Real-time updates via **Pusher**.
+- Nested replies (reply to comments).
+- Post owners can delete any comment on their posts.
+
+### ❤️ Like & Unlike System
+- Like/unlike posts with one click.
+- Real-time like counter (Pusher
